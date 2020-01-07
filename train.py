@@ -82,9 +82,8 @@ class FirstNet(nn.Module):
 
 
 
-train_data = MyDataset(img_path='/media/meepo/c2cb98a3-f300-42f6-860c-4acd5dc'
-                          '194a4/meepo/data/bigdata/train/1.h5',
-                 label_path='/media/meepo/c2cb98a3-f300-42f6-860c-4acd5dc194a4/meepo/data/bigdata/train/1.csv')
+train_data = MyDataset(img_path='train.h5',
+                 label_path='tran.csv')
 
 train_loader = DataLoader(dataset=train_data, batch_size=8, shuffle=False)
 print("Train data load success")
