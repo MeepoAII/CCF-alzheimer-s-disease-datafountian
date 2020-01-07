@@ -35,6 +35,8 @@ class MyDataset(Dataset):
         self.images = self.images_file['data']
 
     def __getitem__(self, index):
+        # 3d convolution 
+        # so don't reshape
         return self.images[index], self.labels['label'][index]
 
 
