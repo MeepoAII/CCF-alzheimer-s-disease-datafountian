@@ -4,6 +4,7 @@ CCF竞赛
 https://www.datafountain.cn/competitions/369
 
 0.75 baseline
+微调卷积层参数可以到0.77++
 
 pytorch初学者,,,大佬轻喷
 
